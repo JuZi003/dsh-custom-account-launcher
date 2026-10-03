@@ -1,7 +1,7 @@
 {
   "name": "dsh-custom-account-launcher",
   "version": "1.3.0",
-  "description": "Custom avatar and nickname for the DSH sidebar account launcher, with a settings block inside Settings → Account & Balance. Keeps the shipped account menu (Settings / Feedback / Sign out) and never touches the bound account.",
+  "description": "自定义左下角账号入口显示的头像和昵称",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
