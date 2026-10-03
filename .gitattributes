@@ -1,0 +1,3 @@
+# Keep line endings LF in the repository and on checkout, so a Windows
+# contributor does not rewrite every line of the shipped bundles.
+* text=auto eol=lf
