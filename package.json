@@ -1,0 +1,49 @@
+{
+  "name": "dsh-custom-account-launcher",
+  "version": "1.3.0",
+  "description": "Custom avatar and nickname for the DSH sidebar account launcher, with a settings block inside Settings → Account & Balance. Keeps the shipped account menu (Settings / Feedback / Sign out) and never touches the bound account.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.0-rc.1"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "account",
+    "avatar",
+    "nickname",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "author": "JuZi003",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuZi003/dsh-custom-account-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuZi003/dsh-custom-account-launcher/issues"
+  },
+  "homepage": "https://github.com/JuZi003/dsh-custom-account-launcher#readme"
+}

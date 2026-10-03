@@ -1,0 +1,4 @@
+# Draws a custom avatar + nickname into the shell's sidebar account seat.
+- insert:
+    - id: custom-account-launcher
+      name: 'dsh-custom-account-launcher'

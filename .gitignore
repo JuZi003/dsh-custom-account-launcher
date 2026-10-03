@@ -1,0 +1,14 @@
+# Dependencies (this plugin has no build step and no runtime deps)
+node_modules/
+
+# Logs and OS cruft
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / tooling
+.vscode/
+.idea/
+*.swp
